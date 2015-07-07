@@ -2,6 +2,10 @@
 
 A simple library that provides standard Unicode [emoji](http://en.wikipedia.org/wiki/Emoji) support across all platforms.
 
+## Asset Generation
+
+Running `bash png.sh` will create png assets in various dimensions and densities from the svg files using ImageMagick. Be careful though, ImageMagick can be finnicky and fail to convert certain svgs and can create a bad asset. Just try re-running the script or use ImageMagick to convert the individual file.
+
 ## CDN Support
 
 The folks over at [MaxCDN](https://www.maxcdn.com) graciously provide CDN support. 
